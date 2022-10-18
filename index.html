@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>welcome</title>
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="s-wrap site-wrapper" id="top">
+    <header class="s-header">
+        <div class="header__top">
+            <div class="header__logo">
+                <a class="site-logo" href="index.html">
+                    <img alt="Homepage" src="images/loder.png">
+                </a>
+            </div>
+
+            <a class="header__search-trigger" href="javascript:void(0)"></a>
+
+        </div>
+        <nav class="header__nav-wrap">
+
+            <ul class="header__nav">
+                <li class="current"><a href="index.html" title="">About>></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="s-content content" style="background-color: floralwhite;">
+        <article class="column large-full entry format-standard">
+            <div class="media-wrap entry__media">
+                <div class="entry__post-thumb">
+                    <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/banner1.png">
+                </div>
+            </div>
+        </article>
+        <main class="row content__page">
+            <section class="column large-full entry format-standard">
+                <div class="content__page-header">
+                    <h1 class="display-1">
+                        Part 1: Identifying Usability Problems
+                    </h1>
+                </div>
+                <h2>Picking Webpage</h2>
+                <div>
+                    <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/powells.png"/>
+                </div>
+                <p class="lead drop-cap">
+                    I chose to redesign an online bookstore website:
+                    <a href="https://www.powells.com/">https://www.powells.com/. </a>
+                    The reason I chose this site is that the UI looks relatively old-fashioned
+                    and a lot of content is clustered on the pages. Meanwhile, some designs
+                    on the page are not reasonable enough and cause inconvenience for users.
+                </p>
+                <h2>Finding Problems</h2>
+                <h3>Usability</h3>
+                <div class="row block-large-1-2 block-tab-full">
+                    <div class="column">
+                        <h4>Problem</h4>
+                        <p>1.Must click on the book detail page to add this book to cart/wishlist.</p>
+                        <p>2.Too much content clustered in the center of the page.</p>
+                    </div>
+
+                    <div class="column">
+                        <h4>Solution</h4>
+                        <p>1.Display the “add to cart/wishlist” button/icon on the homepage.</p>
+                        <p>2.Reduce the number of pictures of the book displayed on
+                            each row, and increase the size of the pictures of the book,
+                            so that users can focus on books themselves.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <h3>Learnability</h3>
+                <div class="row block-large-1-2 block-tab-full">
+                    <div class="column">
+                        <h4>Problem</h4>
+                        <p>Only books’ titles and authors are displayed on the homepage,
+                            no other important information such as ratings, prices, etc. are
+                            displayed on the screen, which does not conform to those mainstream online
+                            shopping websites, such as Amazon, which makes it difficult for some users
+                            to get used to it.</p>
+                    </div>
+
+                    <div class="column">
+                        <h4>Solution</h4>
+                        <p>Display the rating & price of the book on the home page.</p>
+                    </div>
+                </div>
+                <hr>
+
+                <h3>Memorability</h3>
+                <div class="row block-large-1-2 block-tab-full">
+                    <div class="column">
+                        <h4>Problem</h4>
+                        <p>1. All words on the homepage are in the same color and font, and
+                            some functions' font/icon is too small, such as
+                            "cart"/"login"/"my account".</p>
+                        <p>2. The background color of the navigation
+                            bar/search bar is the same as that of the homepage (all white), which
+                            is difficult for users to distinguish.
+                        </p>
+                    </div>
+
+                    <div class="column">
+                        <h4>Solution</h4>
+                        <p>1. On the homepage, the search bar/navigation bar/book listing area is
+                            separated by a different background color/font size/font color.</p>
+                        <p>2. Simplify the navigation bar and move the unimportant blog/events/find
+                            a store functions to the bottom of the page.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+
+                <h2>Accessibility</h2>
+                <div>
+                    <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/00.png"/>
+                </div>
+                <p>Regarding WAVE's accessibility assessment, I disagree with the "error" part.
+                    Since the word "search" is not displayed on the search button, but only a
+                    magnifying glass icon is displayed, WAVE believes that this button is empty
+                    or has no value text, and cannot indicate the function of this button. But in
+                    fact, the "magnifying glass" icon often represents the meaning of "search" in
+                    our daily life. So I think this part shouldn't regarded as an real "error".</p>
+                <!-- part2 -->
+                <div class="content__page-header">
+                    <h1 class="display-1">
+                        Part 2: Visual Redesign
+                    </h1>
+                </div>
+                <h2>Lo-Fi Wireframes</h2>
+                <div class="entry__related">
+                    <ul class="related">
+                        <li class="related__item">
+                            <a class="related__link" href="single-standard.html">
+                                <img alt="" src="images/1.png">
+                            </a>
+                            <h5 class="related__post-title">Lo-Fi Desktop.</h5>
+                        </li>
+                        <li class="related__item">
+                            <a class="related__link" href="single-standard.html">
+                                <img alt="" src="images/2.png">
+                            </a>
+                            <h5 class="related__post-title">Lo-Fi Tablet.</h5>
+                        </li>
+                        <li class="related__item">
+                            <a class="related__link" href="single-standard.html">
+                                <img alt="" src="images/3.png">
+                            </a>
+                            <h5 class="related__post-title">Lo-Fi Mobile.</h5>
+                        </li>
+                    </ul>
+                </div>
+                <h3>Annotations</h3>
+                <ul>
+                    <li>The rating and price of the book are displayed next to the book image, and
+                        users do not need to click on the book details page to learn about these.
+                    </li>
+                    <li>Added a shopping cart and a heart icon next to the book image, which
+                        allows users to add their favorite books to the cart/wishlist directly on
+                        the homepage.
+                    </li>
+                    <li>Simplify the navigation bar (only keep the most important features), expand
+                        the size of the search bar and book images, and reduce the white space on the
+                        left and right sides of the original web page, which makes it easier for users
+                        to find the features they want, and users can focus on the book itself.
+                    </li>
+                    <li>PC Side: Book products are showed horizontally.</li>
+                    <li>Mobile/Tablet Side: Book products are showed vertically.</li>
+                </ul>
+                <h2>Visual Design Style Guide</h2>
+                <div>
+                    <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/4.png">
+                </div>
+                <h2>Hi-Fi Prototyping</h2>
+                <div class="entry__related">
+                    <ul class="related">
+                        <li class="related__item">
+                            <a class="related__link" href="single-standard.html">
+                                <img alt="" src="images/5.png">
+                            </a>
+                            <h5 class="related__post-title">Hi-Fi Desktop.</h5>
+                        </li>
+                        <li class="related__item">
+                            <a class="related__link" href="single-standard.html">
+                                <img alt="" src="images/6.png">
+                            </a>
+                            <h5 class="related__post-title">Hi-Fi Tablet.</h5>
+                        </li>
+                        <li class="related__item">
+                            <a class="related__link" href="single-standard.html">
+                                <img alt="" src="images/7.png">
+                            </a>
+                            <h5 class="related__post-title">Hi-Fi Mobile.</h5>
+                        </li>
+                    </ul>
+                </div>
+                <h3>Annotations</h3>
+                <h4>Layout Choice</h4>
+                <p>Flexbox can quickly achieve proportional distribution. When the page
+                    needs to adapt to different screen sizes and/or device types, we need to
+                    make sure that the elements/components have the appropriate “behavior” in
+                    layout, Flexbox is the best choice.</p>
+                <h4>Different Size</h4>
+                <ul>
+                    <li>The webpage will automatically adjust the page layout according to the
+                        size of the browser window.
+                    </li>
+                    <li>PC side: Due to the wide computer screen, each grid (book product) is
+                        placed horizontally.
+                    </li>
+                    <li>Mobile/Tablet side: Since the screen of the mobile phone/tablet is long
+                        and narrow, each grid (book product) is placed vertically.
+                    </li>
+                </ul>
+                <h4>Page Change</h4>
+                <ul>
+                    <li>The user clicks the heart icon, which represents the "add to wishlist"
+                        feature, and the heart will turn from white to red;
+                        when the user clicks again, the heart icon will change from red to white.
+                    </li>
+                    <li>When the user clicks on the picture/text of the book product, a corresponding
+                        pop-up window will appear.
+                    </li>
+                </ul>
+                <!-- part3 -->
+                <div class="content__page-header">
+                    <h1 class="display-1">
+                        Part 3: Responsive Redesign
+                    </h1>
+                    <a href="https://lazytiger721108.github.io/Assignment2">https://lazytiger721108.github.io/Assignment2/</a>
+                </div>
+                <h2>Full Screen</h2>
+                <div style="background-color: gainsboro;">
+                    <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/8.png">
+                </div>
+                <h2>Change Browser Size</h2>
+                <div style="text-align: center; background-color: gainsboro;">
+                    <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/9.png" style="width: 300px;">
+                </div>
+                <h2>Different Device</h2>
+                <div class="row block-large-1-2 block-tab-full">
+                    <div class="column">
+                        <h4>Mobile</h4>
+                        <img alt="" src="images/10.png">
+                    </div>
+
+                    <div class="column">
+                        <h4>Tablet</h4>
+                        <img alt="" src="images/11.png">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="s-footer footer">
+        <div class="row">
+            <div class="column large-full footer__content">
+                <div class="footer__copyright">Copyright &copy; 2022.</div>
+            </div>
+        </div>
+        <div class="go-top">
+            <a class="smoothscroll" href="#top" title="Back to Top"></a>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
