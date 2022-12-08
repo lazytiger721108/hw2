@@ -22,12 +22,30 @@
         <nav class="header__nav-wrap">
 
             <ul class="header__nav">
-                <li class="current"><a href="index.html" title="">About>></a></li>
-            </ul>
+                <li class="current"><a href="#Part1" style=" width:200px; white-space:nowrap; text-overflow:ellipsis;  -o-text-overflow:ellipsis; overflow: hidden;">Part 1: Identifying Usability Problems</a></li>
+					<ul class="header__nav" style="margin-left:10px;">
+						<li><a href="#Part1-1">Goal</a></li>
+						<li><a href="#Part1-2">Finding Problems</a></li>
+						<ul>
+							<li><a href="#Part1-3">Usability</a></li>
+							<li><a href="#Part1-4">Learnability</a></li>
+							<li><a href="#Part1-5">Memorability</a></li>
+							<li><a href="#Part1-6">Accessibility</a></li>
+						</ul>
+					</ul>
+				<li class="current" ><a href="#Part2" style=" width:200px; white-space:nowrap; text-overflow:ellipsis;  -o-text-overflow:ellipsis; overflow: hidden;">Part 2: Visual Design Iterations</a></li>
+					<ul class="header__nav" style="margin-left:10px;">
+						<li><a href="#Part2-1">Lo-Fi Prototype</a></li>
+						<li><a href="#Part2-2">Visual Design Style Guide</a></li>
+						<li><a href="#Part2-3">Hi-Fi Prototyping</a></li>
+					</ul>
+				<li class="current" ><a href="#Part3" style=" width:200px; white-space:nowrap; text-overflow:ellipsis;  -o-text-overflow:ellipsis; overflow: hidden;">Part 3: Responsive Redesign</a></li>
+				<li class="current" ><a href="#Part4" style=" width:200px; white-space:nowrap; text-overflow:ellipsis;  -o-text-overflow:ellipsis; overflow: hidden;">Part 4: Conclusion</a></li>
+			</ul>
         </nav>
     </header>
 
-    <div class="s-content content" style="background-color: floralwhite;">
+    <div class="s-content content" style="background-image: url(images/bk.png); background-size: 100% 100%; background-repeat: no-repeat;">
         <article class="column large-full entry format-standard">
             <div class="media-wrap entry__media">
                 <div class="entry__post-thumb">
@@ -35,14 +53,15 @@
                 </div>
             </div>
         </article>
-        <main class="row content__page">
+        <main class="row content__page" id="Part1">
             <section class="column large-full entry format-standard">
                 <div class="content__page-header">
+					<hr class="newHr">
                     <h1 class="display-1">
                         Part 1: Identifying Usability Problems
                     </h1>
                 </div>
-                <h2>Goal</h2>
+                <h2 id="Part1-1">Goal</h2>
                 <div>
                     <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/powells.png"/>
                 </div>
@@ -56,12 +75,12 @@
                     site is that the UI looks relatively old-fashioned and some designs on the webpage are not
                     reasonable enough and cause inconvenience for users.
                 </p>
-                <h2>Finding Problems</h2>
+                <h2 id="Part1-2">Finding Problems</h2>
                 <p class="lead">This project started with the problem of old-fashioned and unreasonable user interface.
                     To practice
                     the skills of identifying flaws of an existing interface, I mainly focused on 3 different
                     perspectives: usability, memorability and learnability.</p>
-                <h3>Usability</h3>
+                <h3 id="Part1-3">Usability</h3>
                 <div class="row block-large-1-2 block-tab-full">
                     <div class="column">
                         <h4>Problem</h4>
@@ -79,7 +98,7 @@
                 </div>
                 <hr>
 
-                <h3>Learnability</h3>
+                <h3 id="Part1-4">Learnability</h3>
                 <div class="row block-large-1-2 block-tab-full">
                     <div class="column">
                         <h4>Problem</h4>
@@ -97,7 +116,7 @@
                 </div>
                 <hr>
 
-                <h3>Memorability</h3>
+                <h3 id="Part1-5">Memorability</h3>
                 <div class="row block-large-1-2 block-tab-full">
                     <div class="column">
                         <h4>Problem</h4>
@@ -121,7 +140,7 @@
                 </div>
                 <hr>
 
-                <h2>Accessibility</h2>
+                <h2 id="Part1-6">Accessibility</h2>
                 <div>
                     <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/00.png"/>
                 </div>
@@ -132,8 +151,9 @@
                     fact, the "magnifying glass" icon often represents the meaning of "search" in
                     our daily life. So I think this part shouldn't regarded as an real "error".</p>
                 <!-- part2 -->
-                <div class="content__page-header">
-                    <h1 class="display-1">
+                <div class="content__page-header" id="Part2">
+                    <hr class="newHr">
+					<h1 class="display-1">
                         Part 2: Visual Design Iterations
                     </h1>
                 </div>
@@ -161,7 +181,7 @@
                     mobile, tablet, and desktop. First, I designed the lo-fi wireframes with Balsamiq. Then, based on
                     lo-fi wireframes, I used Figma to get my design closer to the finished product.
                 </p>
-                <h2>Lo-Fi Prototype</h2>
+                <h2 id="Part2-1">Lo-Fi Prototype</h2>
                 <div class="entry__related">
                     <ul class="related">
                         <li class="related__item">
@@ -201,11 +221,11 @@
                     <li>PC Side: Book products are showed horizontally.</li>
                     <li>Mobile/Tablet Side: Book products are showed vertically.</li>
                 </ul>
-                <h2>Visual Design Style Guide</h2>
+                <h2 id="Part2-2">Visual Design Style Guide</h2>
                 <div>
                     <img alt="" sizes="(max-width: 2000px) 100vw, 2000px" src="images/4.png">
                 </div>
-                <h2>Hi-Fi Prototyping</h2>
+                <h2 id="Part2-3">Hi-Fi Prototyping</h2>
                 <div class="entry__related">
                     <ul class="related">
                         <li class="related__item">
@@ -256,10 +276,12 @@
                         pop-up window will appear.
                     </li>
                 </ul>
+				
                 <!-- part3 -->
-                <div class="content__page-header">
+				<div class="content__page-header" id="Part3">
                     <p class="lead drop-cap">Finally, I implemented my responsive webpage using HTML/CSS/JavaScript.</p>
-                    <h1 class="display-1">
+                    <hr class="newHr">
+					<h1 class="display-1">
                         Part 3: Responsive Redesign
                     </h1>
                     <a href="https://lazytiger721108.github.io/Assignment2">https://lazytiger721108.github.io/Assignment2/</a>
@@ -285,7 +307,8 @@
                     </div>
                 </div>
                 <!-- part4: Conclusion -->
-                <div class="content__page-header">
+                <div class="content__page-header" id="Part4">
+					<hr class="newHr">
                     <h1 class="display-1">
                         Part 4: Conclusion
                     </h1>
@@ -324,4 +347,16 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<style>
+.newHr{
+    position: relative;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    height: 4px;
+    background: #dddddd;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+</style>
 </body>
